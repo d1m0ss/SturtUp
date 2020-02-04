@@ -85,7 +85,7 @@ body{
 
 .conteiner1 .menu ul li{
 	display: inline-block;
-
+	position: relative;
 }
 
 .conteiner1 .menu ul li a{
@@ -94,6 +94,7 @@ body{
 	padding: 0 17px;
 	text-decoration: none;
 }
+
 .conteiner1 .menu{
 	 margin-left: 48%;
 	 margin-top: 20px;
@@ -127,6 +128,14 @@ body{
 	padding: 17px 33px;
 }
 
+.container2{
+	font-family: 'Roboto Slab';
+}
+.container2 h2,
+.container2 .descr1{
+	font-family: 'Montserrat';
+}
+
 .container2 .cards div{
 	display: inline-block;
 	width: 30%;
@@ -154,8 +163,9 @@ body{
 .container2 .services div{
 	background: #000;
 	margin-top: 30px;
-	width: 60px;
+	width: 50px;
 	height: 2px;
+	margin-left: 48.2%;
 }
 
 .container2 .services .descr1_2{
@@ -173,4 +183,477 @@ body{
 	font-size: 14px;
 	font-family: 'Roboton Slab';
 	line-height: 1.5;
+}
+
+.container3 .au{
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Roboto Slab';
+}
+
+.container3 {
+	margin-top: 100px;
+	width: 100%;
+	height: 495px;
+	background-color: #f8f8f8;
+}
+
+.container3 h2{
+	font-size: 20px;
+}
+
+.container3 .au .txt div{
+	display: inline-block;
+	width: 34.7%;
+	margin: 0 1.5%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.container3 .au .txt div p{
+	text-align: left;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.container3 .hr{
+	background:#000;
+	margin-top: 30px;
+	width: 50px;
+	height: 2px;
+	margin-left: 48.2%;
+	margin-bottom: 30px;
+}
+
+.container4 h2{
+	text-align: center;
+	color: #555555;
+	font-family: 'Montserrat';
+}
+
+.container4 .hr{
+	background:#000;
+	margin-top: 30px;
+	width: 50px;
+	height: 2px;
+	margin-left: 48.2%;
+	margin-bottom: 30px;
+}
+
+.container4 ul li{
+	display: inline-block;
+}
+
+.container4 ul li a{
+	text-decoration: none;
+	color: #555555;
+	margin: 0 13px;
+	font-size: 14px;
+}
+
+.container4 ul li a:hover{
+	transition: 0.2s;
+	color: #c0301c;
+	text-shadow: 0px 0px 2px #c0301c;
+}
+
+.container4 .menu{
+	margin-left: 34.7%;
+	margin-bottom: 75px;
+}
+
+.container4 .images{
+	display: ruby;
+}
+
+.container4 .aimg{
+	display: grid;
+	justify-content: center;
+}
+
+.container4 .images div{
+	position: relative;
+	display: grid;
+	width: 360px;
+	height: 320px;
+	text-align: center;
+	align-items: center;
+}
+
+.container4 .images div h2{
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+	top: 60px;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container4 .images div p{
+	color: #ffffff;  
+	font-family: 'Roboto Slab';
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	bottom: 5px;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container4 .images .i1 div,
+.container4 .images .i2 div,
+.container4 .images .i3 div,
+.container4 .images .i4 div,
+.container4 .images .i5 div,
+.container4 .images .i6 div,
+.container4 .images .i7 div,
+.container4 .images .i8 div,
+.container4 .images .i9 div{
+	width: 100%;
+	position: absolute;
+}
+
+.container4 .images div a{
+	font-family: 'Roboto Slab';
+	text-decoration: none;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 15px 22px;
+	color: #c0301c;
+	position: relative;
+	bottom: 60px;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container4 .aimg .images .i1:hover div::after,
+.container4 .aimg .images .i2:hover div::after,
+.container4 .aimg .images .i3:hover div::after,
+.container4 .aimg .images .i4:hover div::after,
+.container4 .aimg .images .i5:hover div::after,
+.container4 .aimg .images .i6:hover div::after,
+.container4 .aimg .images .i7:hover div::after,
+.container4 .aimg .images .i8:hover div::after,
+.container4 .aimg .images .i9:hover div::after,
+.container4 .images .i1:hover a,
+.container4 .images .i2:hover a,
+.container4 .images .i3:hover a,
+.container4 .images .i4:hover a,
+.container4 .images .i5:hover a,
+.container4 .images .i6:hover a,
+.container4 .images .i7:hover a,
+.container4 .images .i8:hover a,
+.container4 .images .i9:hover a,
+.container4 .images .i1:hover p,
+.container4 .images .i2:hover p,
+.container4 .images .i3:hover p,
+.container4 .images .i4:hover p,
+.container4 .images .i5:hover p,
+.container4 .images .i6:hover p,
+.container4 .images .i7:hover p,
+.container4 .images .i8:hover p,
+.container4 .images .i9:hover p,
+.container4 .images .i1:hover h2,
+.container4 .images .i2:hover h2,
+.container4 .images .i3:hover h2,
+.container4 .images .i4:hover h2,
+.container4 .images .i5:hover h2,
+.container4 .images .i6:hover h2,
+.container4 .images .i7:hover h2,
+.container4 .images .i8:hover h2,
+.container4 .images .i9:hover h2{
+	opacity: 1;
+	margin: 0 auto;
+}
+
+.container4 .aimg .images .i1 div::after,
+.container4 .aimg .images .i2 div::after,
+.container4 .aimg .images .i3 div::after,
+.container4 .aimg .images .i4 div::after,
+.container4 .aimg .images .i5 div::after,
+.container4 .aimg .images .i6 div::after,
+.container4 .aimg .images .i7 div::after,
+.container4 .aimg .images .i8 div::after,
+.container4 .aimg .images .i9 div::after{
+	content: '';
+	background-image: url('./images/pbgimg.png');
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container4 .images .i1{
+	background-image: url('./images/img1.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i2{
+	background-image: url('./images/img2.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i3{
+	background-image: url('./images/img3.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i4{
+	background-image: url('./images/img4.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i5{
+	background-image: url('./images/img5.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i6{
+	background-image: url('./images/img6.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i7{
+	background-image: url('./images/img7.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i8{
+	background-image: url('./images/img8.png');
+	margin: 15px 15px;
+}
+
+.container4 .images .i9{
+	background-image: url('./images/img9.png');
+	margin: 15px 15px;
+}
+
+.container5{
+	position: relative;
+	width: 100%;
+	height: 370px;
+	font-family: 'Roboto Slab';
+	top: 250px;
+	background-image: url('./images/backgroundcoffe.png');
+	background-repeat: no-repeat;
+}
+
+.container5 .coffe{
+	position: relative;
+	display: grid;
+	align-items: center;
+	height: 100%;
+} 
+
+.container5 .coffe div{
+	width: 100%;
+	height: 100%;
+}
+
+.container5 h2{
+	width: 455px;
+	position: relative;
+	top: -25px;
+	left: 35%;
+	line-height: 1.4;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container5 a{
+	font-size: 18px;
+	font-family: "RobotoSlab";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.444;
+	text-align: center;
+	position: absolute;
+	transition: 0.2s;
+	top: -60px;
+	position: relative;
+	border: 2px solid;
+	padding: 7px 17px;
+	text-decoration: none;
+	margin: 0 auto;
+	opacity: 0;
+}
+
+.container5 .coffe div::after{
+	content: '';
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-image: url('./images/bgp.png');
+	transition: 0.2s;
+	opacity: 0;
+}
+
+.container5:hover .coffe div::after,
+.container5:hover h2,
+.container5:hover a{
+	opacity: 1;
+}
+
+.container6{
+	font-family: 'Roboto Slab';
+	text-align: center;
+	position: relative;
+	top: 250px;
+	width: 100%;
+	height: 450px;
+	background-image: url('./images/c6bgi.png');
+}
+
+.container6 .ros{
+	display: ruby;
+	position: relative;
+}
+
+.container6 .il1,
+.container6 .il2,
+.container6 .il3,
+.container6 .il4,
+.container6 .il5{
+	margin-top: 100px;
+	margin-right: 60px;
+}
+
+.container6 .il1{
+	width: 141px;
+	height: 27px;
+	background-image: url('./images/DEORHAM.png	');
+}
+
+.container6 .il2{
+	width: 121px;
+	height: 49px;
+	background-image: url('./images/Ratings.png');
+}
+.container6 .il3{
+	width: 142px;
+	height: 17px;
+	background-image: url('./images/MALKmedia.png');
+
+}
+.container6 .il4{
+	width: 109px;
+	height: 21px;
+	background-image: url('./images/Bcause.png');
+}
+.container6 .il5{
+	width: 123px;
+	height: 46px;
+	background-image: url('./images/Womeity.png');
+}
+
+.container6 .p{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 100px;
+}
+
+.container6 .p .ggl{
+	font-style: normal;
+	font-size: 20px;
+	margin-top: 60px;
+}
+
+.container7{
+	position: relative;
+	top: 250px;
+	width: 100%;
+	height: 310px;
+	background-color: #c0301c;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.container7 .social {
+	width: 185px;
+	list-style: none;
+	position: relative;
+	display: ruby;
+	top: 100px;
+	margin: 0 auto;
+}
+
+.container7 .social li{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border: 2px solid;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 7px;
+}
+
+.container7 .social li a{
+	color: #ffffff;
+} 
+
+.container7 .social .sitem1:hover{
+	transition: 0.2s;
+	box-shadow: 0px 0px 25px #4d7198;
+	color: #4d7198;
+}
+
+.container7 .social .sitem1:hover a{
+	transition: 0.2s;
+	color: #4d7198;
+}
+
+.container7 .social .sitem2:hover{
+	transition: 0.2s;
+	box-shadow: 0px 0px 25px #3b5998;
+	color: #3b5998;
+}
+
+.container7 .social .sitem2:hover a{
+	transition: 0.2s;
+	color: #3b5998;
+}
+
+.container7 .social .sitem3:hover{
+	transition: 0.2s;
+	box-shadow: 0px 0px 25px #1da1f2;
+	color: #1da1f2;
+}
+
+.container7 .social .sitem3:hover a{
+	transition: 0.2s;
+	color: #1da1f2;
+}
+
+.container7 .social .sitem4:hover{
+	transition: 0.2s;
+	box-shadow: 0px 0px 25px #50c7c7;
+	color: #50c7c7;
+}
+
+.container7 .social .sitem4:hover a{
+	transition: 0.2s;
+	color: #50c7c7;
+}
+.container7 p{
+	text-align: center;
+	position: relative;
+	top: 175px;
+	font-family: 'Roboto Slab';
+	font-size: 12px;
+	text-transform: uppercase;
 }
